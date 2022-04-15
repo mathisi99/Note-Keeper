@@ -25,8 +25,8 @@ function CreateArea(props){
                 setNote(emptyNote);
                 }}>
                 <input name="title" placeholder="Title" value={note.title} onChange={handleChange} />
-                <textarea name="content" placeholder="Take a note..." rows="3" value={note.content} onChange={handleChange} />
-                <button type="submit">AddIcon</button>
+                <textarea name="content" plceholder="Take a note..." rows="3" value={note.content} onChange={handleChange} />
+                <button type="submit"><AddIcon/></button>
             </form>
         </div>
     )
